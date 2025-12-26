@@ -1,0 +1,15 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "this is stored all node exercises",
+  "license": "ISC",
+  "author": "jamal abdiwahab",
+  "type": "commonjs",
+  "main": "./exer-1/server.js",
+  "scripts": {
+    "start":"nodemon ./exer-1/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
