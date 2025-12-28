@@ -5,11 +5,15 @@
   "license": "ISC",
   "author": "jamal abdiwahab",
   "type": "commonjs",
-  "main": "./exer-1/server.js",
+  "main": "./exer 2/server.js",
   "scripts": {
-    "start":"nodemon ./exer-1/server.js"
+    "start": "nodemon ./exer 2/server.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "morgan": "^1.10.1"
   }
 }
