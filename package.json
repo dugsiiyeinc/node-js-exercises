@@ -4,15 +4,17 @@
   "description": "this is stored all node exercises",
   "license": "ISC",
   "author": "jamal abdiwahab",
-  "type": "commonjs",
-  "main": "./exer 2/server.js",
+  "type": "module",
+  "main": "./exer-3/server.js",
   "scripts": {
-    "start": "nodemon ./exer 2/server.js"
+    "start": "nodemon ./exer-3/server.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.0.2",
     "morgan": "^1.10.1"
   }
